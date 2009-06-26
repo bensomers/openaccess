@@ -1,0 +1,28 @@
+<h1>Editing interview</h1>
+
+<% form_for(@interview) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :interviewer %><br />
+    <%= f.text_field :interviewer %>
+  </p>
+  <p>
+    <%= f.label :interviewee %><br />
+    <%= f.text_field :interviewee %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :content %><br />
+    <%= f.text_area :content %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @interview %> |
+<%= link_to 'Back', interviews_path %>

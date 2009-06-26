@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Open Access</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+  <%= stylesheet_link_tag 'application', 'menu', 'niftyCorners', 'flash' %>
+  <%= javascript_include_tag :defaults, 'niftycube.js' %> 
+
+  <script type="text/javascript">
+    window.onload=function(){
+    Nifty("div#box","transparent");
+    }
+  </script>
+
+  <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+  var pageTracker = _gat._getTracker("UA-8877846-1");
+  pageTracker._trackPageview();
+  } catch(err) {}</script>
+
+</head>
+
+<body>
+
+<div id='box'>
+
+  <%= display_flash_messages %>
+
+  <%# if generate_links %>
+    <div id="tabs">
+      <ul>
+        <li><%= link_to '<span>Home</span>', home_path %></li>
+        <li><%= link_to '<span>News</span>',  posts_path  %></li>
+        <li><%= link_to '<span>Interviews</span>', interviews_path %></li>
+        <% for page in @pages %>
+          <li><%= link_to '<span>' + page.title + '</span>', '/static/' +
+            page.permalink %></li>
+        <% end %>        
+      </ul>
+    </div>
+  <%# end %>
+
+    <div id="main">
+      <% if logged_in? %>
+        <p>
+          Hi, <%= @current_user.username %>!  You may want to look at the
+          administrative views.  You can manage 
+          <%= link_to "page content", pages_path %>, manage
+          <%= link_to "news posts", posts_path %>, manage 
+          <%= link_to "users", users_path %>,
+          and manage <%= link_to "interviews", interviews_path %>.
+          You can also <%= link_to "log out", logout_path %>, which you 
+          should make sure to do when you're done.
+        </p>
+      <% end %>
+      
+      <%= yield :layout %>
+    </div>
+
+    <div id="footer">
+      <hr />
+      <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/us/88x31.png" /></a><br />This site and all its contents are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License.</a></p>
+      <p>If you have administrative access, <%= link_to "log in here", login_path %></p>
+    </div>
+
+</div>
+
+</body>
+
+</html>
