@@ -1,0 +1,28 @@
+<p>
+  <strong>Interviewee:</strong>
+  <%=h @interview.interviewee %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%=h @interview.title %>
+</p>
+
+<p>
+  <strong>Interviewer:</strong>
+  <%=h @interview.interviewer %>
+</p>
+
+<% if @interview.date %>
+<p>
+  <strong>Interviewer:</strong>
+  <%=h @interview.date %>
+</p>
+<% end %>
+
+<hr />
+<div id="page_content">
+  <%= textilize @interview.content %>
+</div>
+
+<%= link_to 'Back', interviews_path %>

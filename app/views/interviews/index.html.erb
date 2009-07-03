@@ -1,0 +1,83 @@
+<head>
+  <title> Faculty Opinions </title>
+</head>
+
+<body>
+
+<div id="page_content">
+<h1>Faculty Opinions on Open Access</h1>                                       
+
+
+<p>Seventeen professors at Yale and other universities were surveyed on their awareness of and feelings toward the concept of Open Access.  Three important questions they were asked are: 1) “Are you familiar with the concept of Open Access?” 2) “Have you published in an Open Access journal?” and 3) “Would you like to see the Open Access repository at Yale expanded?” The results are summarized below: 
+</p>
+
+  <%= image_tag 'familiar.jpg', :alt => 'Professors familiar with OA', 
+      :style => 'width:49%' %>
+  <%= image_tag 'repository.jpg', :alt => 'Professors in favor of expanded OA at Yale', 
+      :style => 'width:49%', :align => 'right' %>
+  <%= image_tag 'published.jpg', :alt => 'Professors who have published OA', 
+      :style => 'width:49%' %>
+  <%= image_tag 'discipline.jpg', :alt => 'Professors by discipline', 
+      :style => 'width:49%' %>
+
+<p>The majority of our respondents indicated that they would like to see the state of Open Access at Yale expanded.  In particular, they voiced a willingness to make their own research and/or scholarly articles available OA and a belief that a widespread adoption of that attitude would dutifully serve the goals which Yale stipulates as part of its academic mission (see OA proposal).  
+</p>
+
+<blockquote><em>“There's no sense doing research if you don't let it out.  The purpose is to advance the world. If you don't publish, there is no benefit to the world.”</em>
+~Robert Wyman, Dept. of Molecular, Cellular, and Developmental Biology, Yale University
+</blockquote>
+
+<p>
+Several respondents expressed a concern about mandating an OA policy.  Some felt that OA should be based on an opt-in framework, whereas others felt that there should at least be an opt-out option.
+</p>
+
+<blockquote><em>“As I said before, the more open access, the better. But I would be against requiring it.   There may well be good reasons why a certain essay should not be available to everyone.”</em>
+~Karsten Harries, Dept. of Philosophy, Yale University.
+</blockquote>
+
+<p>
+Others expressed reservations about the quality control of an Open-Access system and were willing to advocate such a system only if it were peer-reviewed and refereed responsibly.
+</p>
+
+<blockquote><em>“From a scientific point of view I like the idea of being able to address also readers which cannot afford to subscribe to the journals I am publishing in. However, I am a strong supporter of the peer-review system. Without such a system, articles in an open access journal will not have the impact of traditional journals. Funding agencies will, as far as I can tell, still require that scientific results are published in high-impact journals. This might be a problem if Yale would want to require open-access publications”</em>
+~Andreas Heinz, Dept. of Physics, Yale University.
+</blockquote>
+
+<p>
+Physicists such as Professor Heinz have been publishing in www.arXiv.org – an Open Access repository of over 500,000 physics papers widely known to the physics community – for over 15 years.  His sentiments are echoed by others in the physics community:
+</p>
+
+<blockquote><em>“If my field (condensed matter physics) became like high energy physics where people are comfortable posting to arXiv and not publishing otherwise I would publish in OA, but it would have to be an OA that became the norm of my field”</em>
+~Robert Pelcovits, Dept. of Physics, Brown University
+</blockquote>
+
+<blockquote><em>“I still publish in traditional journals a final refereed version because it is still very important for funding agencies, and for getting people to take your work seriously (in my experience)”</em>
+-Doug Stone, Dept. of Physics, Yale University.
+</blockquote>
+
+<p>
+Overall, Open Access is a subject little discussed at Yale.  While there is significant awareness of OA, there is little being done to advance it.
+</p>
+
+<blockquote><em>“I'm not sure there is a Yale opinion about open access. You can ask as many faculty members as you'd like, and they'd probably all have similar but certainly not a uniform opinion about the whole thing”</em>
+-Tom Pollard, Dept. of MCDB, Yale University.
+</blockquote>
+</div>
+
+<hr>
+<% form_tag '/interviews/show' do %>
+  <p>
+  We felt it was important to share these professors'
+  views exactly as provided.  Transcripts of our discussions are available below.
+  Not every interview was transcribed, but more will be made available in the future. 
+  <em>&lt;legal stuff&gt;It must be noted that this website reflects only the 
+  personal views of these faculty members, and their opinions cannot in any way
+  be taken as statements of Yale University policy.&lt;/legal stuff&gt;</em>
+  </p>
+  <div id="select_box"> 
+    <label>Select an interview to read:</label>
+    <%= select_tag(:id, options_for_select(@interviews_select)) %>
+    <%= submit_tag 'Show' %>
+  <% end %>
+  </div>
+

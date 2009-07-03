@@ -1,0 +1,13 @@
+<% title "Post" %>
+
+<div id="page_content">
+
+<%= render(:partial => "post", :object => @post) %>
+
+<p>
+  <%= link_to "Edit", edit_post_path(@post) %> |
+  <%= link_to "Destroy", @post, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", posts_path %>
+</p>
+
+</div>

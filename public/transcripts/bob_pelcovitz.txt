@@ -1,0 +1,70 @@
+Interviewee: Bob Pelcovitz
+Interviewer: S. James Boumil III
+Title: Assistant Professor of Physics, Brown University
+Date: Unknown
+
+<p><strong>Q:</strong>  How do you choose where (in which journals) to publish your articles?
+</p>
+
+<p><strong>A:</strong>  Based on the prestige of the journal and the likelihood that my article will be read by people in the field.
+</p>
+
+<p><strong>Q:</strong>  Are you familiar with the concept of Open Access?  Are you familiar with University Open Access programs?
+</p>
+
+<p><strong>A:</strong>  Not really, but sounds vaguely familiar.
+</p>
+
+<p>
+<em>
+Omitted: a brief discussion about the concept of open access. For the rest of the questions, Open Access articles are defined as:
+<p>
+<em>1. Available to any reader to freely license or copy and to redistribute the article without limitations</em>
+</p>
+<p>
+<em>2. Available in an online repository that is free for anyone to access</em>
+</p>
+</em>
+</p>
+
+<p><strong>Q:</strong>  What are your experiences involving OA?  (Have you ever published material under OA?)
+</p>
+
+<p><strong>A:</strong>  When submitting to a regular journal I also submit to arXiv, the physics repository and granddad of OA.
+</p>
+
+<p><strong>Q:</strong>  What is the state of Open Access at Brown as far as you know? Have you ever published something in an open access journal?
+</p>
+
+<p><strong>A:</strong>  No, I have not.
+</p>
+
+<p><strong>Q:</strong>  How would you feel about expanding the state of open access at Brown?  What about requiring it?
+</p>
+
+<p><strong>A:</strong>  I would not require it.
+</p>
+
+<p><strong>Q:</strong>  Would you consider publishing some of your future work OA?  What kind of incentive would you need to publish in one?
+</p>
+
+<p><strong>A:</strong>  If my field (condensed matter physics) became like high energy physics where people are comfortable posting to arXiv and not publishing otherwise, I would publish in OA, but it would have to be an OA that became the norm of my field.
+</p>
+
+<p><strong>Q:</strong>  What are your concerns (or your peers' concerns) about an OA program?
+</p>
+
+<p><strong>A:</strong>  Is it refereed like regular publications?
+</p>
+
+<p><strong>Q:</strong>  When you use/reference articles by other academics/your peers, do you ever access/use OA journals?
+</p>
+
+<p><strong>A:</strong>  Not typically.
+</p>
+
+<p><strong>Q:</strong>  Do you consider whether a journal is OA when looking for reference materials?
+</p>
+
+<p><strong>A:</strong>  No.
+</p>

@@ -1,0 +1,11 @@
+<% title @page.title %>
+
+<div id="page_content">
+
+  <%= textilize @page.content %>
+  
+  <% if logged_in? %>
+    <p><%= link_to "Edit this page", edit_page_path(@page) %></p>
+  <% end %>
+  
+</div>

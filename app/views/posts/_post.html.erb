@@ -1,0 +1,15 @@
+<h2><%=h post.title %></h2>
+
+<p>
+  <small>Posted by <%=h post.user.displayname %> at
+  <%=h post.time.strftime('%I:%M %p, %A, %b %d') %></small>
+</p>
+<p>
+  <%= textilize post.content %>
+</p>
+<% if post.edited? %>
+  <p>
+    <small>Post last edited at 
+      <%=h post.updated_at.strftime('%I:%M %p, %A, %b %d') %></small>
+  <p>
+<% end %>

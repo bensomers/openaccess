@@ -1,0 +1,44 @@
+Interviewee: Robert Wyman
+Interviewer: Adi Kamdar
+Title: Professor of Molecular, Cellular & Developmental Biology, Yale University
+Date: Unknown
+
+
+
+*Q:* Why do you publish your research? (Distribution of knowledge? Citations? Tenure? Money?)
+
+*A:* There's no sense doing research if you don't let it out. The purpose is to advance the world. If you don't publish, there is no benefit to the world.
+
+*Q:* How do you choose where (in which journals) to publish your articles?
+
+*A:* One tries to get the maximum readership.
+
+*Q:* Are you familiar with the concept of Open Access?
+
+*A:* Yes.
+
+_Our working definition of Open Access at a university is:_
+
+_1. Available to any reader to freely license or copy and to redistribute the article without limitations_
+
+_2. Available in an online repository that is free for anyone to access_
+
+*Q:* What are your experiences involving OA? (Have you ever published material under OA?)
+
+*A:* I don't think any of my publications are officially open access, but they effectively are. Almost every scientist (that's who would read my stuff) has access to electronic copies of journals through their University libraries. Sometimes developing country people e-mail me and then I send them a PDF of the article.
+
+*Q:* What is the state of Open Access at Yale as far as you know? Have you ever published something in an open access journal?
+
+*A:* Yale is trying to digitize important parts of the library's holdings to make then available. Digitizing is slow and expensive, so this doesn't happen overnight.
+
+*Q:* How would you feel about expanding the state of open access at Yale? What about requiring it with a faculty-wide mandate similar to Harvard's or MIT's?
+
+*A:* Don't know anything about Harvard or MIT policy. Mandates are often bad - there are always reasonable exceptions to any rule and unintended consequences of the best plans (e.g. ethanol from corn). I don't think access is a problem for anyone in my field. There is much more published and available than anyone can read.
+
+*Q:* Would you consider publishing some of your future work OA? What kind of incentive would you need to publish in this manner?
+
+*A:* I have no problem with open access and wouldn't need an incentive.
+
+*Q:* What are your concerns (or your peers' concerns) about an OA program?
+
+*A:* If it's a 'mandate' then people will object. The only big problem is University libraries' budgets. Journals cost them a fortune. I doubt that the profit margins are very high (you ought to check that). Publishing can be expensive. Someone has to pay for it. Who do you suggest? OA may switch charges from libraries to authors (OA journals often charge the authors for publication). Is that an improvement?

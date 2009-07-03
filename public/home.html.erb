@@ -1,0 +1,22 @@
+<head>
+  <title> Open Access </title>  
+</head>
+
+<body>
+
+  <%= image_tag 'oa_splash_blue_on_clear.png', :alt => 'PLoS OA logo', 
+      :class => 'splash', :position => 'center' %>
+  
+  <div id="page_content">    
+  <div id="news">
+    <div class="post">
+      <%= render(:partial => "posts/post", :object => Post.first) %>
+    </div>
+  </div>
+  </div>
+  <%= yield %>
+  
+  
+</body>
+
+</html>

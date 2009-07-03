@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  interviewee: MyString
+  interviewer: MyString
+  title: MyString
+  date: 2009-05-15
+  content: MyText
+
+two:
+  interviewee: MyString
+  interviewer: MyString
+  title: MyString
+  date: 2009-05-15
+  content: MyText

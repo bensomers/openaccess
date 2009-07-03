@@ -1,0 +1,17 @@
+Goals for dev cycle 3:
+
+More robust user/admin levels
+Blog comments (probably anonymous, if there's a spam comment problem, then I'll require registration)
+Blog RSS?
+AJAX in relevant places
+general CSS & styling improvements (find a designer to help?)
+Fix the stupid graph image bug (with divs?)
+Heroku deployment?
+Capistrano?
+Once I've got domain stuff worked out, ask Peter Suber & the OA Week people to re-link us
+Add an about OA page (Green OA vs. Gold OA)
+Add a contact us page
+add extract/load fixtures?  It's better than yaml_db any day
+write tests!
+do cross-browser (*cough* IE) testing
+add a textile markup toolbar plugin (Maaaybe TEH...maybe learn how to use MarkItUp?)
