@@ -10,6 +10,6 @@
 <% if post.edited? %>
   <p>
     <small>Post last edited at 
-      <%=h post.updated_at.strftime('%I:%M %p, %A, %b %d') %></small>
+      <%=h post.updated_at.strftime('%I:%M %p, %A, %b %d') %> by <%=h post.editor.displayname %> </small>
   <p>
 <% end %>

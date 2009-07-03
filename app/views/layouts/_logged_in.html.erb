@@ -4,8 +4,7 @@
           <%= link_to "page content", pages_path %>, manage
           <%= link_to "news posts", posts_path %>,
           and manage <%= link_to "interviews", interviews_path %>.
-          You can also change your user settings at 
-          <%= link_to "show_user_path", @current_user %>.
+          You can also <%= link_to "change your user settings", edit_user_path(@current_user) %>.
           Be sure to <%= link_to "log out", logout_path %> when you're done.
         <% if @current_user.admin? %>
           Administrators also have the ability to <%= link_to "edit users", users_path %>
