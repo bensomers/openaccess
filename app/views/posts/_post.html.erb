@@ -3,6 +3,8 @@
 <p>
   <small>Posted by <%=h post.user.displayname %> at
   <%=h post.time.strftime('%I:%M %p, %A, %b %d') %></small>
+  <%#=h post.time.to_s(:post) %>
+
 </p>
 <p>
   <%= textilize post.content %>

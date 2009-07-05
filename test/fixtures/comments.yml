@@ -1,0 +1,9 @@
+one:
+  author: MyString
+  body: MyString
+  post_id: 1
+
+two:
+  author: MyString
+  body: MyString
+  post_id: 1
