@@ -1,8 +1,8 @@
 *~
 log/*
 tmp/*
-db/schema.rb
-Rakefile
+#db/schema.rb
+#Rakefile
 .DS_Store
 .project
 *.orig
