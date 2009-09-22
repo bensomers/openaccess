@@ -25,7 +25,7 @@ class ApplicationController < ActionController::Base
   private
   
   def prepare_navbar
-    @pages = Page.all
+    @pages = Page.all.delete_if{|p| p.permalink == 'home'}
   end
   
   def admin_required
